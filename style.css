@@ -1,0 +1,123 @@
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+body{
+
+
+  	background: linear-gradient(-45deg, hsl(31, 93%, 28%), #b6672a, #cbd9ee, #ab7106);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+
+
+}
+
+#the{
+
+
+font-family: "Oswald";
+font-size: 100px;
+position: relative;top: -100px;
+
+
+}
+
+#book{
+font-family: "Oswald";
+font-size: 100px;
+position: relative;top: -250px;
+}
+
+#of{
+
+
+font-family: "Oswald";
+font-size: 100px;
+position: relative;top: -400px;
+
+}
+
+#hover-text{
+
+font-family: "Oswald";
+font-size: 100px;
+position: relative;top: -550px;
+
+
+}
+#and{
+
+font-family: "Oswald";
+font-size: 30px;
+position: relative;top: -400px;
+width: 200px;
+    
+}
+
+
+.hover-text {
+  color: rgb(0, 0, 0);
+  font-family: "Oswald";
+  font-size: 100px;
+position: relative;top: -550px;
+width: 10px;
+  /* Optional: adds a smooth transition effect */
+  transition: color 0.3s ease;
+}
+
+/* Color on hover */
+.hover-text:hover {
+  color: rgb(209, 128, 15);
+}
+
+/* Example for a link */
+a {
+  color: black; /* Default link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange; /* Link color on hover */
+}
+
+* {
+  cursor: url('https://cdn.cursors-4u.net/css-previews/cute-orange-flying-butterfly-8f0cfa8c-css.webp') 0 0, auto !important;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#flo{
+
+
+
+
+
+height: 10px;
+width: 200px;
+font-size: 30px;
+position: relative;bottom: -50px;
+
+}
+
+
+#river{
+
+position: relative;top: -300px;
+
+}
